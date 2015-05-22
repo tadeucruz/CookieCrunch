@@ -89,10 +89,11 @@ class GameScene: SKScene {
         }
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func userInteractionBegan(event: CCUIEvent) {
         // 1
-        let touch = touches.first as! UITouch
-        let location = touch.locationInNode(cookiesLayer)
+        //let touch = touches.first as! UITouch
+        //let location = touch.locationInNode(cookiesLayer)
+        let location = event.locationInNode(cookiesLayer)
         // 2
         let (success, column, row) = convertPoint(location)
         if success {
@@ -116,13 +117,14 @@ class GameScene: SKScene {
         }
     }
     
-    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func userInteractionContinued(event: CCUIEvent) {
         // 1
         if swipeFromColumn == nil { return }
         
         // 2
-        let touch = touches.first as! UITouch
-        let location = touch.locationInNode(cookiesLayer)
+        //let touch = touches.first as! UITouch
+        //let location = touch.locationInNode(cookiesLayer)
+        let location = event.locationInNode(cookiesLayer)
         
         let (success, column, row) = convertPoint(location)
         if success {
@@ -170,7 +172,7 @@ class GameScene: SKScene {
         }
     }
     
-    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func userInteractionEnded(event: CCUIEvent) {
         swipeFromColumn = nil
         swipeFromRow = nil
         
@@ -179,8 +181,8 @@ class GameScene: SKScene {
         }
     }
     
-    override func touchesCancelled(touches: Set<NSObject>, withEvent event: UIEvent) {
-        touchesEnded(touches, withEvent: event)
+    override func userInteractionCancelled(event: CCUIEvent) {
+        userInteractionEnded(event)
     }
     
     func animateSwap(swap: Swap, completion: () -> ()) {
