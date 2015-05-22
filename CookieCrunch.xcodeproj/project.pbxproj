@@ -41,6 +41,8 @@
 		A52AB28C1B0F9061002A55DC /* ShadowedLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */; };
 		A52AB28E1B0F90AB002A55DC /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */; };
 		A52AB28F1B0F90AB002A55DC /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */; };
+		A52AB2911B0F9218002A55DC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB2901B0F9218002A55DC /* GameController.swift */; };
+		A52AB2921B0F9218002A55DC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB2901B0F9218002A55DC /* GameController.swift */; };
 		A5B8282D1AF96F4D008B832E /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = A5B8282C1AF96F4D008B832E /* Levels */; };
 		A5B8282F1AF96F9C008B832E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B8282E1AF96F9C008B832E /* Tile.swift */; };
 		A5B828311AF97062008B832E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B828301AF97062008B832E /* Extensions.swift */; };
@@ -93,6 +95,7 @@
 		A52AB2871B0F8E60002A55DC /* EventHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandling.swift; sourceTree = "<group>"; };
 		A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedLabelNode.swift; sourceTree = "<group>"; };
 		A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		A52AB2901B0F9218002A55DC /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		A5B8282C1AF96F4D008B832E /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Levels; path = CookieCrunch/Levels; sourceTree = "<group>"; };
 		A5B8282E1AF96F9C008B832E /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = CookieCrunch/Tile.swift; sourceTree = "<group>"; };
 		A5B828301AF97062008B832E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CookieCrunch/Extensions.swift; sourceTree = "<group>"; };
@@ -236,17 +239,18 @@
 				A52AB2781B0F8A78002A55DC /* Grid.atlas */,
 				A50056FD1AE72649009B7399 /* Sprites.atlas */,
 				A50057011AE727BD009B7399 /* Array2D.swift */,
+				A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */,
 				A5B828361AFAC691008B832E /* Chain.swift */,
 				A50056FF1AE72734009B7399 /* Cookie.swift */,
+				A52AB2871B0F8E60002A55DC /* EventHandling.swift */,
 				A5B828301AF97062008B832E /* Extensions.swift */,
+				A52AB2901B0F9218002A55DC /* GameController.swift */,
 				A50056DD1AE725D9009B7399 /* GameScene.swift */,
 				A50057031AE72857009B7399 /* Level.swift */,
+				A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */,
 				A5B828321AF976D1008B832E /* Swap.swift */,
 				A5B8282E1AF96F9C008B832E /* Tile.swift */,
 				A50056E41AE725DA009B7399 /* Images.xcassets */,
-				A52AB2871B0F8E60002A55DC /* EventHandling.swift */,
-				A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */,
-				A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */,
 			);
 			name = "CookieCrunch Shared";
 			sourceTree = "<group>";
@@ -432,6 +436,7 @@
 				A5B828331AF976D1008B832E /* Swap.swift in Sources */,
 				A50057021AE727BD009B7399 /* Array2D.swift in Sources */,
 				A52AB28E1B0F90AB002A55DC /* ButtonNode.swift in Sources */,
+				A52AB2911B0F9218002A55DC /* GameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +464,7 @@
 				A52AB2891B0F8E60002A55DC /* EventHandling.swift in Sources */,
 				A52AB25B1B0F87FA002A55DC /* AppDelegate.swift in Sources */,
 				A52AB2841B0F8AE5002A55DC /* Swap.swift in Sources */,
+				A52AB2921B0F9218002A55DC /* GameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
