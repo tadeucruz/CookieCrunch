@@ -37,6 +37,10 @@
 		A52AB2861B0F8AEB002A55DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50056E41AE725DA009B7399 /* Images.xcassets */; };
 		A52AB2881B0F8E60002A55DC /* EventHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB2871B0F8E60002A55DC /* EventHandling.swift */; };
 		A52AB2891B0F8E60002A55DC /* EventHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB2871B0F8E60002A55DC /* EventHandling.swift */; };
+		A52AB28B1B0F9061002A55DC /* ShadowedLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */; };
+		A52AB28C1B0F9061002A55DC /* ShadowedLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */; };
+		A52AB28E1B0F90AB002A55DC /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */; };
+		A52AB28F1B0F90AB002A55DC /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */; };
 		A5B8282D1AF96F4D008B832E /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = A5B8282C1AF96F4D008B832E /* Levels */; };
 		A5B8282F1AF96F9C008B832E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B8282E1AF96F9C008B832E /* Tile.swift */; };
 		A5B828311AF97062008B832E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B828301AF97062008B832E /* Extensions.swift */; };
@@ -87,6 +91,8 @@
 		A52AB26F1B0F87FA002A55DC /* CookieCrunch_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunch_MacTests.swift; sourceTree = "<group>"; };
 		A52AB2781B0F8A78002A55DC /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 		A52AB2871B0F8E60002A55DC /* EventHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandling.swift; sourceTree = "<group>"; };
+		A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedLabelNode.swift; sourceTree = "<group>"; };
+		A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
 		A5B8282C1AF96F4D008B832E /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Levels; path = CookieCrunch/Levels; sourceTree = "<group>"; };
 		A5B8282E1AF96F9C008B832E /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = CookieCrunch/Tile.swift; sourceTree = "<group>"; };
 		A5B828301AF97062008B832E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CookieCrunch/Extensions.swift; sourceTree = "<group>"; };
@@ -239,6 +245,8 @@
 				A5B8282E1AF96F9C008B832E /* Tile.swift */,
 				A50056E41AE725DA009B7399 /* Images.xcassets */,
 				A52AB2871B0F8E60002A55DC /* EventHandling.swift */,
+				A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */,
+				A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */,
 			);
 			name = "CookieCrunch Shared";
 			sourceTree = "<group>";
@@ -414,6 +422,7 @@
 				A50057041AE72857009B7399 /* Level.swift in Sources */,
 				A50056DE1AE725D9009B7399 /* GameScene.swift in Sources */,
 				A50057001AE72734009B7399 /* Cookie.swift in Sources */,
+				A52AB28B1B0F9061002A55DC /* ShadowedLabelNode.swift in Sources */,
 				A52AB2881B0F8E60002A55DC /* EventHandling.swift in Sources */,
 				A5B828311AF97062008B832E /* Extensions.swift in Sources */,
 				A5B8282F1AF96F9C008B832E /* Tile.swift in Sources */,
@@ -422,6 +431,7 @@
 				A50056DA1AE725D9009B7399 /* AppDelegate.swift in Sources */,
 				A5B828331AF976D1008B832E /* Swap.swift in Sources */,
 				A50057021AE727BD009B7399 /* Array2D.swift in Sources */,
+				A52AB28E1B0F90AB002A55DC /* ButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,9 +448,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52AB2811B0F8ADE002A55DC /* Extensions.swift in Sources */,
+				A52AB28C1B0F9061002A55DC /* ShadowedLabelNode.swift in Sources */,
 				A52AB27F1B0F8AD9002A55DC /* Chain.swift in Sources */,
 				A52AB2801B0F8ADB002A55DC /* Cookie.swift in Sources */,
 				A52AB27E1B0F8AD6002A55DC /* Array2D.swift in Sources */,
+				A52AB28F1B0F90AB002A55DC /* ButtonNode.swift in Sources */,
 				A52AB2821B0F8AE0002A55DC /* GameScene.swift in Sources */,
 				A52AB2831B0F8AE3002A55DC /* Level.swift in Sources */,
 				A52AB2851B0F8AE8002A55DC /* Tile.swift in Sources */,

@@ -4,8 +4,10 @@ import SpriteKit
 
 #if os(iOS)
     typealias CCUIEvent = UITouch
+    typealias CCTapOrClickGestureRecognizer = UITapGestureRecognizer
 #else
     typealias CCUIEvent = NSEvent
+    typealias CCTapOrClickGestureRecognizer = NSClickGestureRecognizer
 #endif
 
 extension SKNode {
