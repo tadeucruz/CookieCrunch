@@ -19,11 +19,22 @@
 		A50057021AE727BD009B7399 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50057011AE727BD009B7399 /* Array2D.swift */; };
 		A50057041AE72857009B7399 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50057031AE72857009B7399 /* Level.swift */; };
 		A52AB25B1B0F87FA002A55DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB25A1B0F87FA002A55DC /* AppDelegate.swift */; };
-		A52AB25D1B0F87FA002A55DC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB25C1B0F87FA002A55DC /* GameScene.swift */; };
-		A52AB25F1B0F87FA002A55DC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A52AB25E1B0F87FA002A55DC /* GameScene.sks */; };
-		A52AB2611B0F87FA002A55DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52AB2601B0F87FA002A55DC /* Images.xcassets */; };
 		A52AB2641B0F87FA002A55DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52AB2621B0F87FA002A55DC /* MainMenu.xib */; };
 		A52AB2701B0F87FA002A55DC /* CookieCrunch_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB26F1B0F87FA002A55DC /* CookieCrunch_MacTests.swift */; };
+		A52AB2791B0F8A78002A55DC /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A52AB2781B0F8A78002A55DC /* Grid.atlas */; };
+		A52AB27A1B0F8ABF002A55DC /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = A5B8282C1AF96F4D008B832E /* Levels */; };
+		A52AB27B1B0F8AC2002A55DC /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = A5B828341AFAC276008B832E /* Sounds */; };
+		A52AB27C1B0F8AC5002A55DC /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A52AB2781B0F8A78002A55DC /* Grid.atlas */; };
+		A52AB27D1B0F8AD3002A55DC /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A50056FD1AE72649009B7399 /* Sprites.atlas */; };
+		A52AB27E1B0F8AD6002A55DC /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50057011AE727BD009B7399 /* Array2D.swift */; };
+		A52AB27F1B0F8AD9002A55DC /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B828361AFAC691008B832E /* Chain.swift */; };
+		A52AB2801B0F8ADB002A55DC /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50056FF1AE72734009B7399 /* Cookie.swift */; };
+		A52AB2811B0F8ADE002A55DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B828301AF97062008B832E /* Extensions.swift */; };
+		A52AB2821B0F8AE0002A55DC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50056DD1AE725D9009B7399 /* GameScene.swift */; };
+		A52AB2831B0F8AE3002A55DC /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50057031AE72857009B7399 /* Level.swift */; };
+		A52AB2841B0F8AE5002A55DC /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B828321AF976D1008B832E /* Swap.swift */; };
+		A52AB2851B0F8AE8002A55DC /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B8282E1AF96F9C008B832E /* Tile.swift */; };
+		A52AB2861B0F8AEB002A55DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50056E41AE725DA009B7399 /* Images.xcassets */; };
 		A5B8282D1AF96F4D008B832E /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = A5B8282C1AF96F4D008B832E /* Levels */; };
 		A5B8282F1AF96F9C008B832E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B8282E1AF96F9C008B832E /* Tile.swift */; };
 		A5B828311AF97062008B832E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B828301AF97062008B832E /* Extensions.swift */; };
@@ -53,34 +64,32 @@
 		A50056D41AE725D9009B7399 /* CookieCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50056D81AE725D9009B7399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50056D91AE725D9009B7399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A50056DD1AE725D9009B7399 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A50056DD1AE725D9009B7399 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = CookieCrunch/GameScene.swift; sourceTree = "<group>"; };
 		A50056DF1AE725D9009B7399 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A50056E21AE725D9009B7399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A50056E41AE725DA009B7399 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A50056E41AE725DA009B7399 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CookieCrunch/Images.xcassets; sourceTree = "<group>"; };
 		A50056E71AE725DA009B7399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A50056ED1AE725DA009B7399 /* CookieCrunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCrunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50056F21AE725DA009B7399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50056F31AE725DA009B7399 /* CookieCrunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunchTests.swift; sourceTree = "<group>"; };
-		A50056FD1AE72649009B7399 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
-		A50056FF1AE72734009B7399 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
-		A50057011AE727BD009B7399 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
-		A50057031AE72857009B7399 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		A50056FD1AE72649009B7399 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Sprites.atlas; path = CookieCrunch/Sprites.atlas; sourceTree = "<group>"; };
+		A50056FF1AE72734009B7399 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cookie.swift; path = CookieCrunch/Cookie.swift; sourceTree = "<group>"; };
+		A50057011AE727BD009B7399 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array2D.swift; path = CookieCrunch/Array2D.swift; sourceTree = "<group>"; };
+		A50057031AE72857009B7399 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level.swift; path = CookieCrunch/Level.swift; sourceTree = "<group>"; };
 		A52AB2561B0F87FA002A55DC /* CookieCrunch Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CookieCrunch Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52AB2591B0F87FA002A55DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52AB25A1B0F87FA002A55DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A52AB25C1B0F87FA002A55DC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		A52AB25E1B0F87FA002A55DC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A52AB2601B0F87FA002A55DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A52AB2631B0F87FA002A55DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A52AB2691B0F87FA002A55DC /* CookieCrunch MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CookieCrunch MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52AB26E1B0F87FA002A55DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52AB26F1B0F87FA002A55DC /* CookieCrunch_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunch_MacTests.swift; sourceTree = "<group>"; };
-		A5B8282C1AF96F4D008B832E /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Levels; sourceTree = "<group>"; };
-		A5B8282E1AF96F9C008B832E /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
-		A5B828301AF97062008B832E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		A5B828321AF976D1008B832E /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
-		A5B828341AFAC276008B832E /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
-		A5B828361AFAC691008B832E /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		A52AB2781B0F8A78002A55DC /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
+		A5B8282C1AF96F4D008B832E /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Levels; path = CookieCrunch/Levels; sourceTree = "<group>"; };
+		A5B8282E1AF96F9C008B832E /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = CookieCrunch/Tile.swift; sourceTree = "<group>"; };
+		A5B828301AF97062008B832E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CookieCrunch/Extensions.swift; sourceTree = "<group>"; };
+		A5B828321AF976D1008B832E /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Swap.swift; path = CookieCrunch/Swap.swift; sourceTree = "<group>"; };
+		A5B828341AFAC276008B832E /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = CookieCrunch/Sounds; sourceTree = "<group>"; };
+		A5B828361AFAC691008B832E /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chain.swift; path = CookieCrunch/Chain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +127,11 @@
 		A50056CB1AE725D9009B7399 = {
 			isa = PBXGroup;
 			children = (
+				A52AB2771B0F898A002A55DC /* CookieCrunch Shared */,
 				A50056D61AE725D9009B7399 /* CookieCrunch */,
-				A50056F01AE725DA009B7399 /* CookieCrunchTests */,
 				A52AB2571B0F87FA002A55DC /* CookieCrunch Mac */,
 				A52AB26C1B0F87FA002A55DC /* CookieCrunch MacTests */,
+				A50056F01AE725DA009B7399 /* CookieCrunchTests */,
 				A50056D51AE725D9009B7399 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,21 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				A50056D91AE725D9009B7399 /* AppDelegate.swift */,
-				A50056DD1AE725D9009B7399 /* GameScene.swift */,
-				A5B828361AFAC691008B832E /* Chain.swift */,
-				A5B828321AF976D1008B832E /* Swap.swift */,
-				A50056FF1AE72734009B7399 /* Cookie.swift */,
-				A50057011AE727BD009B7399 /* Array2D.swift */,
-				A50057031AE72857009B7399 /* Level.swift */,
-				A5B828301AF97062008B832E /* Extensions.swift */,
 				A50056DF1AE725D9009B7399 /* GameViewController.swift */,
-				A5B8282E1AF96F9C008B832E /* Tile.swift */,
-				A50056E11AE725D9009B7399 /* Main.storyboard */,
-				A50056E41AE725DA009B7399 /* Images.xcassets */,
-				A50056FD1AE72649009B7399 /* Sprites.atlas */,
-				A5B8282C1AF96F4D008B832E /* Levels */,
-				A5B828341AFAC276008B832E /* Sounds */,
 				A50056E61AE725DA009B7399 /* LaunchScreen.xib */,
+				A50056E11AE725D9009B7399 /* Main.storyboard */,
 				A50056D71AE725D9009B7399 /* Supporting Files */,
 			);
 			path = CookieCrunch;
@@ -190,9 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				A52AB25A1B0F87FA002A55DC /* AppDelegate.swift */,
-				A52AB25C1B0F87FA002A55DC /* GameScene.swift */,
-				A52AB25E1B0F87FA002A55DC /* GameScene.sks */,
-				A52AB2601B0F87FA002A55DC /* Images.xcassets */,
 				A52AB2621B0F87FA002A55DC /* MainMenu.xib */,
 				A52AB2581B0F87FA002A55DC /* Supporting Files */,
 			);
@@ -222,6 +217,26 @@
 				A52AB26E1B0F87FA002A55DC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A52AB2771B0F898A002A55DC /* CookieCrunch Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A5B8282C1AF96F4D008B832E /* Levels */,
+				A5B828341AFAC276008B832E /* Sounds */,
+				A52AB2781B0F8A78002A55DC /* Grid.atlas */,
+				A50056FD1AE72649009B7399 /* Sprites.atlas */,
+				A50057011AE727BD009B7399 /* Array2D.swift */,
+				A5B828361AFAC691008B832E /* Chain.swift */,
+				A50056FF1AE72734009B7399 /* Cookie.swift */,
+				A5B828301AF97062008B832E /* Extensions.swift */,
+				A50056DD1AE725D9009B7399 /* GameScene.swift */,
+				A50057031AE72857009B7399 /* Level.swift */,
+				A5B828321AF976D1008B832E /* Swap.swift */,
+				A5B8282E1AF96F9C008B832E /* Tile.swift */,
+				A50056E41AE725DA009B7399 /* Images.xcassets */,
+			);
+			name = "CookieCrunch Shared";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +367,7 @@
 				A5B8282D1AF96F4D008B832E /* Levels in Resources */,
 				A50056E81AE725DA009B7399 /* LaunchScreen.xib in Resources */,
 				A50056E51AE725DA009B7399 /* Images.xcassets in Resources */,
+				A52AB2791B0F8A78002A55DC /* Grid.atlas in Resources */,
 				A50056E31AE725D9009B7399 /* Main.storyboard in Resources */,
 				A50056FE1AE72649009B7399 /* Sprites.atlas in Resources */,
 			);
@@ -368,8 +384,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52AB25F1B0F87FA002A55DC /* GameScene.sks in Resources */,
-				A52AB2611B0F87FA002A55DC /* Images.xcassets in Resources */,
+				A52AB27B1B0F8AC2002A55DC /* Sounds in Resources */,
+				A52AB2861B0F8AEB002A55DC /* Images.xcassets in Resources */,
+				A52AB27D1B0F8AD3002A55DC /* Sprites.atlas in Resources */,
+				A52AB27C1B0F8AC5002A55DC /* Grid.atlas in Resources */,
+				A52AB27A1B0F8ABF002A55DC /* Levels in Resources */,
 				A52AB2641B0F87FA002A55DC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,8 +432,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52AB25D1B0F87FA002A55DC /* GameScene.swift in Sources */,
+				A52AB2811B0F8ADE002A55DC /* Extensions.swift in Sources */,
+				A52AB27F1B0F8AD9002A55DC /* Chain.swift in Sources */,
+				A52AB2801B0F8ADB002A55DC /* Cookie.swift in Sources */,
+				A52AB27E1B0F8AD6002A55DC /* Array2D.swift in Sources */,
+				A52AB2821B0F8AE0002A55DC /* GameScene.swift in Sources */,
+				A52AB2831B0F8AE3002A55DC /* Level.swift in Sources */,
+				A52AB2851B0F8AE8002A55DC /* Tile.swift in Sources */,
 				A52AB25B1B0F87FA002A55DC /* AppDelegate.swift in Sources */,
+				A52AB2841B0F8AE5002A55DC /* Swap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
