@@ -3,7 +3,7 @@ import AVFoundation
 
 class GameController: NSObject {
     
-    let view: SKView
+    let view: CCView
     
     // The scene draws the tiles and cookie sprites, and handles swipes.
     let scene: GameScene
@@ -31,7 +31,7 @@ class GameController: NSObject {
         return player
     }()
     
-    init(skView: SKView) {
+    init(skView: CCView) {
         view = skView
         scene = GameScene(size: skView.bounds.size)
         

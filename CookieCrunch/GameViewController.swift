@@ -24,7 +24,7 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         // Configure the view.
-        let skView = view as! SKView
+        let skView = view as! CCView
         skView.multipleTouchEnabled = false
         
         gameController = GameController(skView: skView)

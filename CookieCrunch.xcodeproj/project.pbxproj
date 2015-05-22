@@ -43,6 +43,7 @@
 		A52AB28F1B0F90AB002A55DC /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */; };
 		A52AB2911B0F9218002A55DC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB2901B0F9218002A55DC /* GameController.swift */; };
 		A52AB2921B0F9218002A55DC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AB2901B0F9218002A55DC /* GameController.swift */; };
+		A58E54601B0FACC300A3F509 /* CCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E545F1B0FACC300A3F509 /* CCView.swift */; };
 		A5B8282D1AF96F4D008B832E /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = A5B8282C1AF96F4D008B832E /* Levels */; };
 		A5B8282F1AF96F9C008B832E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B8282E1AF96F9C008B832E /* Tile.swift */; };
 		A5B828311AF97062008B832E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B828301AF97062008B832E /* Extensions.swift */; };
@@ -96,6 +97,7 @@
 		A52AB28A1B0F9061002A55DC /* ShadowedLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedLabelNode.swift; sourceTree = "<group>"; };
 		A52AB28D1B0F90AB002A55DC /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
 		A52AB2901B0F9218002A55DC /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		A58E545F1B0FACC300A3F509 /* CCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCView.swift; sourceTree = "<group>"; };
 		A5B8282C1AF96F4D008B832E /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Levels; path = CookieCrunch/Levels; sourceTree = "<group>"; };
 		A5B8282E1AF96F9C008B832E /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = CookieCrunch/Tile.swift; sourceTree = "<group>"; };
 		A5B828301AF97062008B832E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CookieCrunch/Extensions.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				A52AB25A1B0F87FA002A55DC /* AppDelegate.swift */,
 				A52AB2621B0F87FA002A55DC /* MainMenu.xib */,
 				A52AB2581B0F87FA002A55DC /* Supporting Files */,
+				A58E545F1B0FACC300A3F509 /* CCView.swift */,
 			);
 			path = "CookieCrunch Mac";
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 			files = (
 				A52AB2811B0F8ADE002A55DC /* Extensions.swift in Sources */,
 				A52AB28C1B0F9061002A55DC /* ShadowedLabelNode.swift in Sources */,
+				A58E54601B0FACC300A3F509 /* CCView.swift in Sources */,
 				A52AB27F1B0F8AD9002A55DC /* Chain.swift in Sources */,
 				A52AB2801B0F8ADB002A55DC /* Cookie.swift in Sources */,
 				A52AB27E1B0F8AD6002A55DC /* Array2D.swift in Sources */,
@@ -765,6 +769,7 @@
 				A52AB2721B0F87FA002A55DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A52AB2761B0F87FA002A55DC /* Build configuration list for PBXNativeTarget "CookieCrunch MacTests" */ = {
 			isa = XCConfigurationList;
@@ -773,6 +778,7 @@
 				A52AB2741B0F87FA002A55DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
